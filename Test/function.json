@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "supplierQueue",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "supplier-queue",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}
